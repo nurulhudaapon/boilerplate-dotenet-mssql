@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>a4b575e0-3046-47a7-bc56-03f0c3b14371</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	<PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="6.1.4" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NurulsDotNet.Data\NurulsDotNet.Data.csproj" />
+		<ProjectReference Include="..\NurulsDotNet.Services\NurulsDotNet.Services.csproj" />
+	</ItemGroup>
+
+</Project>

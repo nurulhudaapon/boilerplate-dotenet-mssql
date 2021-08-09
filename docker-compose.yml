@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nurulsdotnet.api:
+    image: ${DOCKER_REGISTRY-}nurulsdotnetapi
+    build:
+      context: .
+      dockerfile: NurulsDotNet.Api/Dockerfile

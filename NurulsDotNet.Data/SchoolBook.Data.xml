@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NurulsDotNet.Data</name>
+    </assembly>
+    <members>
+        <member name="T:NurulsDotNet.Data.Models.ApiKey">
+            <summary>
+            ApiKey Model
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKey.Name">
+            <summary>
+            Name of the ApiKey
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKey.Key">
+            <summary>
+            Key
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKey.Status">
+            <summary>
+            Status of the ApiKey
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.ApiKeyStatus">
+            <summary>
+            ApiKey Status
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.ApiKeyStatus.Active">
+            <summary>
+            Active ApiKey
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.ApiKeyStatus.Inactive">
+            <summary>
+            Inactive ApiKey
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.ApiKeyStatus.Deleted">
+            <summary>
+            Deleted ApiKey
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.ApiKeyFilter">
+            <summary>
+            ApiKey Filter
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKeyFilter.Key">
+            <summary>
+            Private Key
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKeyFilter.Names">
+            <summary>
+            List of name
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.ApiKeyFilter.Statuses">
+            <summary>
+            List of Status
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.BaseResourceModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseResourceModel.Id">
+            <summary>
+            ID of the resource
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseResourceModel.PublicId">
+            <summary>
+            Public ID of the resource
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseResourceModel.CreatedAt">
+            <summary>
+            Date the resource was created
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseResourceModel.UpdatedAt">
+            <summary>
+            Date the resource was updated
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.BaseOrgResourceModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseOrgResourceModel.OrgId">
+            <summary>
+            Org Id the resource belongs to
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseOrgResourceModel.UserId">
+            <summary>
+            User Id the resource belongs to
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.BaseFilterModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseFilterModel.Ids">
+            <summary>
+            List of ID to filter the resource with
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseFilterModel.PublicIds">
+            <summary>
+            List of ID to filter the resource with
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.BaseOrgResourceFilterModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseOrgResourceFilterModel.UserIds">
+            <summary>
+            List of User Id
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.BaseOrgResourceFilterModel.OrgIds">
+            <summary>
+            List of Org Id
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.Org">
+            <summary>
+            Org Model
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.Org.Name">
+            <summary>
+            Name of the Org
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.Org.Subdomain">
+            <summary>
+            Unique Subdomain to be used for the org
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.Org.Status">
+            <summary>
+            Status of the Org
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.Org.UserId">
+            <summary>
+            User ID of the Org Owner
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.Org.ThemeId">
+            <summary>
+            Active Theme of the Org
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.OrgStatus">
+            <summary>
+            Org Status
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.OrgStatus.Active">
+            <summary>
+            Active Org
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.OrgStatus.Inactive">
+            <summary>
+            Inactive Org
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.OrgFilter">
+            <summary>
+            Org Filter
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.OrgFilter.Names">
+            <summary>
+            List of name
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.OrgFilter.Subdomains">
+            <summary>
+            List of subdomain
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.OrgFilter.UserIds">
+            <summary>
+            List of User Id
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.OrgFilter.Statuses">
+            <summary>
+            List of Status
+            </summary>
+        </member>
+        <member name="P:NurulsDotNet.Data.Models.UserAuthRequest.Password">
+            <summary>
+            Password of the user
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Models.UserType">
+            <summary>
+            Type of the user
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.UserType.OrgUser">
+            <summary>
+            Org User
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.UserType.OrgAdmin">
+            <summary>
+            Org Admin
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.UserType.SuperUser">
+            <summary>
+            Super User
+            </summary>
+        </member>
+        <member name="F:NurulsDotNet.Data.Models.UserType.SuperAdmin">
+            <summary>
+            Super Admin
+            </summary>
+        </member>
+        <member name="T:NurulsDotNet.Data.Queries.IDbConnectionFactory">
+            <summary>
+            DB connection factory
+            </summary>
+        </member>
+        <member name="M:NurulsDotNet.Data.Queries.IDbConnectionFactory.GetConnection">
+            <summary>
+            Get connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NurulsDotNet.Data.Queries.IDbConnectionFactory.GetReadOnlyConnection">
+            <summary>
+            Get read only connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NurulsDotNet.Data.Queries.DbConnectionFactory">
+            <summary>
+            DB connection factory
+            </summary>
+        </member>
+        <member name="M:NurulsDotNet.Data.Queries.DbConnectionFactory.#ctor(NurulsDotNet.Data.Models.Configs.DatabaseConfig)">
+            <summary>
+            CTOR
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:NurulsDotNet.Data.Queries.DbConnectionFactory.GetConnection">
+            <summary>
+            Get Read/Write Connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NurulsDotNet.Data.Queries.DbConnectionFactory.GetReadOnlyConnection">
+            <summary>
+            Get Readonly Connection
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
